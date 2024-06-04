@@ -1,0 +1,128 @@
+{
+  "value": "lambda",
+  "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg",
+  "enabledProposalTypes": {
+    "textProposal": true,
+    "communityPoolSpendProposal": true
+  },
+  "networks": [
+    {
+      "chainName": "lambda",
+      "chainId": "lambda_92000-1",
+      "networkName": "mainnet",
+      "slip44": 60,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "ulamb",
+            "lowGasPrice": 10000000000,
+            "averageGasPrice": 25000000000,
+            "highGasPrice": 40000000000
+          }
+        ]
+      },
+      "bech32Prefix": "lamb",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc.lambda.im",
+            "provider": "Lambda"
+          },
+          {
+            "address": "http://lambda.rpc.m.stavr.tech:31327",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://rpc.lambda.nodestake.top",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "https://lambda-rpc.noders.services",
+            "provider": "[NODERS]TEAM"
+          },
+          {
+            "address": "https://lambda_mainnet_rpc.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://rest.lambda.im",
+            "provider": "Lambda"
+          },
+          {
+            "address": "https://lambda.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://api.lambda.nodestake.top",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "https://lambda-api.noders.services",
+            "provider": "[NODERS]TEAM"
+          },
+          {
+            "address": "https://lambda_mainnet_api.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "http://lambda.grpc.m.stavr.tech:2287",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "grpc.lambda.nodestake.top:443",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "lambda-grpc.noders.services:31090",
+            "provider": "[NODERS]TEAM"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "ulamb"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://explorer.lambda.im/",
+          "txPage": "https://explorer.lambda.im/tx/${txHash}"
+        },
+        {
+          "url": "https://explorer.nodestake.top/lambda",
+          "txPage": "https://explorer.nodestake.top/lambda/txs/${txHash}"
+        },
+        {
+          "url": "https://explorer.stavr.tech/lambda",
+          "txPage": "https://explorer.stavr.tech/lambda/txs/${txHash}"
+        },
+        {
+          "url": "https://atomscan.com/lambda",
+          "txPage": "https://atomscan.com/lambda/transactions/${txHash}",
+          "accountPage": "https://atomscan.com/lambda/accounts/${accountAddress}"
+        },
+        {
+          "url": "https://explorer.whenmoonwhenlambo.money/lambda",
+          "txPage": "https://explorer.whenmoonwhenlambo.money/lambda/tx/${txHash}",
+          "accountPage": "https://explorer.whenmoonwhenlambo.money/lambda/account/${accountAddress}"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg"
+        }
+      ]
+    }
+  ]
+}

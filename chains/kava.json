@@ -1,0 +1,157 @@
+{
+  "value": "kava",
+  "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg",
+  "enabledProposalTypes": {
+    "textProposal": true,
+    "communityPoolSpendProposal": true
+  },
+  "networks": [
+    {
+      "chainName": "kava",
+      "chainId": "kava_2222-10",
+      "networkName": "mainnet",
+      "slip44": 459,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "ukava",
+            "lowGasPrice": 0.05,
+            "averageGasPrice": 0.1,
+            "highGasPrice": 0.25
+          }
+        ]
+      },
+      "bech32Prefix": "kava",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc.data.kava.io",
+            "provider": "kava"
+          },
+          {
+            "address": "https://kava-rpc.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://rpc-kava-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://kava-mainnet-rpc.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://kava-rpc.ibs.team",
+            "provider": "Inter Blockchain Services"
+          },
+          {
+            "address": "https://rpc-kava-01.stakeflow.io",
+            "provider": "Stakeflow"
+          },
+          {
+            "address": "https://kava-rpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://api.data.kava.io/",
+            "provider": "kava"
+          },
+          {
+            "address": "https://api-kava-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://kava-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://kava-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://kava-api.ibs.team",
+            "provider": "Inter Blockchain Services"
+          },
+          {
+            "address": "https://api-kava-01.stakeflow.io",
+            "provider": "Stakeflow"
+          },
+          {
+            "address": "https://kava-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "grpc.data.kava.io:443",
+            "provider": "kava"
+          },
+          {
+            "address": "grpc-kava-ia.cosmosia.notional.ventures:443",
+            "provider": "Notional"
+          },
+          {
+            "address": "kava-grpc.polkachu.com:13990",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "kava-mainnet-grpc.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "grpc-kava-01.stakeflow.io:1202",
+            "provider": "Stakeflow"
+          },
+          {
+            "address": "kava-grpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "ukava"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://www.mintscan.io/kava",
+          "txPage": "https://www.mintscan.io/kava/transactions/${txHash}",
+          "accountPage": "https://www.mintscan.io/kava/accounts/${accountAddress}"
+        },
+        {
+          "url": "https://ezstaking.app/kava",
+          "txPage": "https://ezstaking.app/kava/txs/${txHash}",
+          "accountPage": "https://ezstaking.app/kava/account/${accountAddress}"
+        },
+        {
+          "url": "https://ping.pub/kava",
+          "txPage": "https://ping.pub/kava/tx/${txHash}"
+        },
+        {
+          "url": "https://atomscan.com/kava",
+          "txPage": "https://atomscan.com/kava/transactions/${txHash}",
+          "accountPage": "https://atomscan.com/kava/accounts/${accountAddress}"
+        },
+        {
+          "url": "https://stakeflow.io/kava",
+          "accountPage": "https://stakeflow.io/kava/accounts/${accountAddress}"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg"
+        }
+      ]
+    }
+  ]
+}

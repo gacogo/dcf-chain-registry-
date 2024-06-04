@@ -1,0 +1,119 @@
+{
+  "value": "beezee",
+  "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg",
+  "enabledProposalTypes": {
+    "textProposal": true,
+    "communityPoolSpendProposal": true
+  },
+  "networks": [
+    {
+      "chainName": "beezee",
+      "chainId": "beezee-1",
+      "networkName": "mainnet",
+      "slip44": 118,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "ubze",
+            "fixedMinGasPrice": 0.01,
+            "lowGasPrice": 0.01,
+            "averageGasPrice": 0.025,
+            "highGasPrice": 0.04
+          }
+        ]
+      },
+      "bech32Prefix": "bze",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc.getbze.com",
+            "provider": "AlphaTeam"
+          },
+          {
+            "address": "https://rpc-1.getbze.com",
+            "provider": "AlphaTeam"
+          },
+          {
+            "address": "https://rpc-2.getbze.com",
+            "provider": "AlphaTeam"
+          },
+          {
+            "address": "https://beezee_mainnet_rpc.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://rest.getbze.com",
+            "provider": "AlphaTeam"
+          },
+          {
+            "address": "https://rest-1.getbze.com",
+            "provider": "AlphaTeam"
+          },
+          {
+            "address": "https://rest-2.getbze.com",
+            "provider": "AlphaTeam"
+          },
+          {
+            "address": "https://beezee_mainnet_api.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "grpc.getbze.com:9099",
+            "provider": "AlphaTeam"
+          },
+          {
+            "address": "grpc-1.getbze.com:9099",
+            "provider": "AlphaTeam"
+          },
+          {
+            "address": "grpc-2.getbze.com:9099",
+            "provider": "AlphaTeam"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "ubze"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://ping.pub/beezee",
+          "txPage": "https://ping.pub/beezee/tx/${txHash}",
+          "accountPage": "https://ping.pub/beezee/account/${accountAddress}"
+        },
+        {
+          "url": "https://explorer.getbze.com/beezee",
+          "txPage": "https://explorer.getbze.com/beezee/tx/${txHash}",
+          "accountPage": "https://explorer.getbze.com/beezee/account/${accountAddress}"
+        },
+        {
+          "url": "https://atomscan.com/beezee",
+          "txPage": "https://atomscan.com/beezee/transactions/${txHash}",
+          "accountPage": "https://atomscan.com/beezee/accounts/${accountAddress}"
+        },
+        {
+          "url": "https://explorer.whenmoonwhenlambo.money/beezee",
+          "txPage": "https://explorer.whenmoonwhenlambo.money/beezee/tx/${txHash}",
+          "accountPage": "https://explorer.whenmoonwhenlambo.money/beezee/account/${accountAddress}"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg"
+        }
+      ]
+    }
+  ]
+}

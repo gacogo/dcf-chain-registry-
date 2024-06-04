@@ -1,0 +1,32 @@
+{
+  "value": "thorchain",
+  "image": null,
+  "enabledProposalTypes": {
+    "textProposal": true,
+    "communityPoolSpendProposal": true
+  },
+  "networks": [
+    {
+      "chainName": "thorchain",
+      "chainId": "thorchain-mainnet-v1",
+      "networkName": "mainnet",
+      "slip44": 931,
+      "bech32Prefix": "thor",
+      "apis": {
+        "rpc": [],
+        "rest": [],
+        "grpc": []
+      },
+      "explorers": [
+        {
+          "url": "https://thorchain.net",
+          "txPage": "https://thorchain.net/#/txs/${txHash}"
+        },
+        {
+          "url": "https://viewblock.io/thorchain",
+          "txPage": "https://viewblock.io/thorchain/tx/${txHash}"
+        }
+      ]
+    }
+  ]
+}

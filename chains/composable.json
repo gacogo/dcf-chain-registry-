@@ -1,0 +1,322 @@
+{
+  "value": "composable",
+  "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg",
+  "enabledProposalTypes": {
+    "textProposal": true,
+    "communityPoolSpendProposal": true
+  },
+  "networks": [
+    {
+      "chainName": "composable",
+      "chainId": "centauri-1",
+      "networkName": "mainnet",
+      "slip44": 118,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "ppica",
+            "fixedMinGasPrice": 0,
+            "lowGasPrice": 0,
+            "averageGasPrice": 0,
+            "highGasPrice": 0
+          }
+        ]
+      },
+      "bech32Prefix": "pica",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc-composable-ia.cosmosia.notional.ventures",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://composable-mainnet-rpc.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://picasso-rpc.cogwheel.zone:443",
+            "provider": "Cogwheel ⚙️"
+          },
+          {
+            "address": "https://picasso-rpc.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://composable-rpc.genznodes.dev",
+            "provider": "genznodes"
+          },
+          {
+            "address": "https://rpc-picasso.whispernode.com:443",
+            "provider": "WhisperNode 🤐"
+          },
+          {
+            "address": "https://picasso-rpc.stake-town.com",
+            "provider": "StakeTown"
+          },
+          {
+            "address": "https://composable.rpc.stakevillage.net:443",
+            "provider": "Stake Village"
+          },
+          {
+            "address": "https://composable-rpc.stakeandrelax.net",
+            "provider": "Stake&Relax 🦥"
+          },
+          {
+            "address": "https://rpc.centauri.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          },
+          {
+            "address": "https://composable.rpc.moonbridge.team",
+            "provider": "Moonbridge"
+          },
+          {
+            "address": "https://rpc.composable.citizenweb3.com:443",
+            "provider": "Citizen Web3"
+          },
+          {
+            "address": "https://composable.rpc.m.stavr.tech:443",
+            "provider": "🔥STAVR🔥"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://api-composable-ia.cosmosia.notional.ventures",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://composable-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://picasso-api.cogwheel.zone:443",
+            "provider": "Cogwheel ⚙️"
+          },
+          {
+            "address": "https://picasso-api.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://composable-api.genznodes.dev",
+            "provider": "genznodes"
+          },
+          {
+            "address": "https://api-picasso.whispernode.com:443",
+            "provider": "WhisperNode 🤐"
+          },
+          {
+            "address": "https://picasso-api.stake-town.com",
+            "provider": "StakeTown"
+          },
+          {
+            "address": "https://composable.api.stakevillage.net",
+            "provider": "Stake Village"
+          },
+          {
+            "address": "https://composable-api.stakeandrelax.net",
+            "provider": "Stake&Relax 🦥"
+          },
+          {
+            "address": "https://lcd.centauri.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          },
+          {
+            "address": "https://composable.api.moonbridge.team",
+            "provider": "Moonbridge"
+          },
+          {
+            "address": "https://composable.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "https://grpc-composable-ia.cosmosia.notional.ventures",
+            "provider": "Notional"
+          },
+          {
+            "address": "grpc.composable.nodestake.top:9090",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "composable-mainnet-grpc.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "grpc-centauri.cosmos-spaces.cloud:1120",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "https://picasso-grpc.cogwheel.zone:443",
+            "provider": "Cogwheel ⚙️"
+          },
+          {
+            "address": "https://picasso-grpc.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "composable-grpc.genznodes.dev:53090",
+            "provider": "genznodes"
+          },
+          {
+            "address": "picasso-grpc.stake-town.com:443",
+            "provider": "StakeTown"
+          },
+          {
+            "address": "grpc-composable.vinjan.xyz:36090",
+            "provider": "vinjan"
+          },
+          {
+            "address": "composable.grpc.skynodejs.net",
+            "provider": "skynodejs"
+          },
+          {
+            "address": "composable.grpc.stakevillage.net:16190",
+            "provider": "Stake Village"
+          },
+          {
+            "address": "composable-rpc.stakeandrelax.net:22290",
+            "provider": "Stake&Relax 🦥"
+          },
+          {
+            "address": "grpc.composable.validatus.com",
+            "provider": "Validatus"
+          },
+          {
+            "address": "https://grpc.centauri.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          },
+          {
+            "address": "https://composable.grpc.moonbridge.team",
+            "provider": "Moonbridge"
+          },
+          {
+            "address": "composable.grpc.m.stavr.tech:9907",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "grpc-picasso.whispernode.com:443",
+            "provider": "WhisperNode 🤐"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "ppica"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://ping.pub/composable",
+          "txPage": "https://ping.pub/composable/tx/${txHash}"
+        },
+        {
+          "url": "https://explorer.nodestake.top/composable",
+          "txPage": "https://explorer.nodestake.top/composable/tx/${txHash}"
+        },
+        {
+          "url": "https://exp.stakevillage.net/composable",
+          "txPage": "https://exp.stakevillage.net/composable/tx/${txHash}",
+          "accountPage": "https://exp.stakevillage.net/composable/account/${accountAddress}"
+        },
+        {
+          "url": "https://explorer.stavr.tech/Composable-Mainnet",
+          "txPage": "https://explorer.stavr.tech/Composable-Mainnet/tx/${txHash}"
+        },
+        {
+          "url": "https://mainnet.whispernode.com/picasso",
+          "txPage": "https://mainnet.whispernode.com/picasso/tx/${txHash}",
+          "accountPage": "https://mainnet.whispernode.com/picasso/account/${accountAddress}"
+        }
+      ],
+      "logoURIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg"
+      },
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg"
+        }
+      ]
+    },
+    {
+      "chainName": "composabletestnet",
+      "chainId": "banksy-testnet-3",
+      "networkName": "testnet",
+      "slip44": 118,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "ppica",
+            "fixedMinGasPrice": 0,
+            "lowGasPrice": 0,
+            "averageGasPrice": 0,
+            "highGasPrice": 0
+          }
+        ]
+      },
+      "bech32Prefix": "centauri",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc.composable-t.indonode.net:443",
+            "provider": "Indonode"
+          },
+          {
+            "address": "https://rpc-composable-testnet.sr20de.xyz:443",
+            "provider": "Sr20de"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://api.composable-t.indonode.net",
+            "provider": "Indonode"
+          },
+          {
+            "address": "https://composable.api.t4.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://api-composable-testnet.sr20de.xyz",
+            "provider": "Sr20de"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "https://grpc.composable-t.indonode.net:47090",
+            "provider": "Indonode"
+          },
+          {
+            "address": "https://grpc-composable-testnet.sr20de.xyz",
+            "provider": "Sr20de"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "ppica"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://explorer.nodexcapital.com/composable-3",
+          "txPage": "https://explorer.nodexcapital.com/composable-3/tx/${txHash}"
+        },
+        {
+          "url": "https://explorer.stavr.tech/Composable-Testnet4",
+          "txPage": "https://explorer.stavr.tech/Composable-Testnet4/tx/${txHash}"
+        },
+        {
+          "url": "https://explorer.indonode.net/composable-testnet-3",
+          "txPage": "https://explorer.indonode.net/composable-testnet-3/tx/${txHash}"
+        },
+        {
+          "url": "https://explorer.sr20de.xyz/Composible-3",
+          "txPage": "https://explorer.sr20de.xyz/Composible-3/tx/${txHash}"
+        }
+      ]
+    }
+  ]
+}

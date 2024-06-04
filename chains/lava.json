@@ -1,0 +1,236 @@
+{
+  "value": "lava",
+  "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-chain-logo.png",
+  "enabledProposalTypes": {
+    "textProposal": true,
+    "communityPoolSpendProposal": true
+  },
+  "networks": [
+    {
+      "chainName": "lava",
+      "chainId": "lava-mainnet-1",
+      "networkName": "mainnet",
+      "slip44": 118,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "ulava",
+            "fixedMinGasPrice": 1e-9,
+            "lowGasPrice": 1e-9,
+            "averageGasPrice": 0.00005,
+            "highGasPrice": 0.0001
+          }
+        ]
+      },
+      "bech32Prefix": "lava@",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://lava-rpc.w3coins.io:443",
+            "provider": "w3coins"
+          },
+          {
+            "address": "https://lava-rpc.finteh.org:443",
+            "provider": "finteh"
+          },
+          {
+            "address": "https://lava-rpc.y2.finance:443",
+            "provider": "YTWOFUND"
+          },
+          {
+            "address": "https://lava-rpc.ibs.team:443",
+            "provider": "Inter Blockchain Services"
+          },
+          {
+            "address": "https://rpc.lava-mainnet-1.lava.aviaone.com:443",
+            "provider": "AVIAONE"
+          },
+          {
+            "address": "https://lava-rpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://lava.rpc.m.stavr.tech:443",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://lava.rpc-archive.m.stavr.tech:443",
+            "provider": "🔥STAVR🔥"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://lava-api.w3coins.io:443",
+            "provider": "w3coins"
+          },
+          {
+            "address": "https://lava-api.ibs.team:443",
+            "provider": "Inter Blockchain Services"
+          },
+          {
+            "address": "https://api.lava-mainnet-1.lava.aviaone.com",
+            "provider": "AVIAONE"
+          },
+          {
+            "address": "https://lava-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://lava.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://lava.api-archive.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "lava-grpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "lava.grpc.m.stavr.tech:443",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "lava.grpc-archive.m.stavr.tech:443",
+            "provider": "🔥STAVR🔥"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "ulava"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://lava-explorer.w3coins.io/Lava",
+          "txPage": "https://lava-explorer.w3coins.io/Lava/tx/${txHash}",
+          "accountPage": "https://lava-explorer.w3coins.io/Lava/account/${accountAddress}"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-chain-logo.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-chain-logo.png",
+          "theme": {
+            "primaryColorHex": "#FF3900"
+          },
+          "layout": "logo",
+          "textPosition": "right"
+        },
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png",
+          "layout": "logomark"
+        }
+      ]
+    },
+    {
+      "chainName": "lavatestnet",
+      "chainId": "lava-testnet-2",
+      "networkName": "testnet",
+      "slip44": 118,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "ulava",
+            "fixedMinGasPrice": 0.000001,
+            "lowGasPrice": 0.000001,
+            "averageGasPrice": 0.025,
+            "highGasPrice": 0.04
+          }
+        ]
+      },
+      "bech32Prefix": "lava@",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://public-rpc-testnet2.lavanet.xyz:443/rpc/",
+            "provider": "Lava"
+          },
+          {
+            "address": "http://lava.rpc.t.stavr.tech:198",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://lava-testnet-rpc.itrocket.net:443",
+            "provider": "🚀ITRocket🚀"
+          },
+          {
+            "address": "https://lava-testnet-rpc.ibs.team:443",
+            "provider": "Inter Blockchain Services"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://public-rpc-testnet2.lavanet.xyz:443/rest/",
+            "provider": "Lava"
+          },
+          {
+            "address": "https://lava.api.t.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://lava-testnet-api.itrocket.net",
+            "provider": "🚀ITRocket🚀"
+          },
+          {
+            "address": "https://lava-testnet-api.ibs.team:443",
+            "provider": "Inter Blockchain Services"
+          }
+        ],
+        "grpc": []
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "ulava"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://lava.explorers.guru/",
+          "txPage": "https://lava.explorers.guru//transaction/${txHash}",
+          "accountPage": "https://lava.explorers.guru//account/${accountAddress}"
+        },
+        {
+          "url": "https://explorer.stavr.tech/Lava-Testnet",
+          "txPage": "https://explorer.stavr.tech/Lava-Testnet/tx/${txHash}",
+          "accountPage": "https://explorer.stavr.tech/Lava-Testnet/account/${accountAddress}"
+        },
+        {
+          "url": "https://explorer.nodestake.org/lava-testnet",
+          "txPage": "https://explorer.nodestake.org/lava-testnet/tx/${txHash}",
+          "accountPage": "https://explorer.nodestake.org/lava-testnet/account/${accountAddress}"
+        },
+        {
+          "url": "https://testnet.itrocket.net/lava",
+          "txPage": "https://testnet.itrocket.net/lava/tx/${txHash}",
+          "accountPage": "https://testnet.itrocket.net/lava/account/${accountAddress}"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.png",
+          "theme": {
+            "primaryColorHex": "#D7001F"
+          }
+        },
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
+        }
+      ]
+    }
+  ]
+}

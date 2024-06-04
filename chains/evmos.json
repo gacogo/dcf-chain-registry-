@@ -1,0 +1,442 @@
+{
+  "value": "evmos",
+  "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
+  "enabledProposalTypes": {
+    "textProposal": true,
+    "communityPoolSpendProposal": true
+  },
+  "networks": [
+    {
+      "chainName": "evmos",
+      "chainId": "evmos_9001-2",
+      "networkName": "mainnet",
+      "slip44": 60,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "aevmos",
+            "fixedMinGasPrice": 250000000,
+            "lowGasPrice": 20000000000,
+            "averageGasPrice": 25000000000,
+            "highGasPrice": 40000000000
+          }
+        ]
+      },
+      "bech32Prefix": "evmos",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc-evmos.ecostake.com",
+            "provider": "ecostake"
+          },
+          {
+            "address": "https://evmos-rpc.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://tendermint.bd.evmos.org:26657",
+            "provider": "Blockdaemon"
+          },
+          {
+            "address": "https://rpc-evmos-ia.cosmosia.notional.ventures:443",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://rpc.evmos.testnet.run",
+            "provider": "TestNetRun"
+          },
+          {
+            "address": "https://rpc.evmos.nodestake.top",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "https://rpc.evmos.chaintools.tech/",
+            "provider": "ChainTools"
+          },
+          {
+            "address": "https://evmos-rpc.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://rpc.evmos.silentvalidator.com/",
+            "provider": "silent"
+          },
+          {
+            "address": "https://rpc.evmos.tcnetwork.io",
+            "provider": "TC Network"
+          },
+          {
+            "address": "https://evmos.rpc.stakin-nodes.com",
+            "provider": "Stakin"
+          },
+          {
+            "address": "https://rpc-evmos.architectnodes.com",
+            "provider": "Architect Nodes"
+          },
+          {
+            "address": "https://evmos-rpc.validatrium.club",
+            "provider": "Validatrium"
+          },
+          {
+            "address": "https://evmos-rpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://rpc-evmos-01.stakeflow.io",
+            "provider": "Stakeflow"
+          },
+          {
+            "address": "https://evmos-rpc.theamsolutions.info",
+            "provider": "AM Solutions"
+          },
+          {
+            "address": "https://rpc-evmos.validavia.me",
+            "provider": "Validavia"
+          },
+          {
+            "address": "https://evmos-rpc.w3coins.io",
+            "provider": "w3coins"
+          },
+          {
+            "address": "https://evmos-rpc.stake-town.com",
+            "provider": "StakeTown"
+          },
+          {
+            "address": "https://evmos.rpc.liveraven.net",
+            "provider": "LiveRaveN"
+          },
+          {
+            "address": "https://evmos-rpc.antrixy.org/",
+            "provider": "Antrix Validators"
+          },
+          {
+            "address": "https://evmos-mainnet.rpc.stakevillage.net:443",
+            "provider": "Stake Village"
+          },
+          {
+            "address": "https://rpc.evmos.validatus.com",
+            "provider": "Validatus"
+          },
+          {
+            "address": "https://rpc.evmos.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          },
+          {
+            "address": "https://rpc.evmos.citizenweb3.com:443",
+            "provider": "Citizen Web3"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://rest.bd.evmos.org:1317",
+            "provider": "Blockdaemon"
+          },
+          {
+            "address": "https://evmos-api.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://api-evmos-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://api.evmos.nodestake.top",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "https://evmos-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://api.evmos.silentvalidator.com/",
+            "provider": "silent"
+          },
+          {
+            "address": "https://rest.evmos.tcnetwork.io",
+            "provider": "TC Network"
+          },
+          {
+            "address": "https://evmos.rest.stakin-nodes.com",
+            "provider": "Stakin"
+          },
+          {
+            "address": "https://rest-evmos.architectnodes.com",
+            "provider": "Architect Nodes"
+          },
+          {
+            "address": "https://evmos-api.validatrium.club",
+            "provider": "Validatrium"
+          },
+          {
+            "address": "https://rest-evmos.ecostake.com",
+            "provider": "ecostake"
+          },
+          {
+            "address": "https://evmos-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://api-evmos-01.stakeflow.io",
+            "provider": "Stakeflow"
+          },
+          {
+            "address": "https://evmos-api.theamsolutions.info",
+            "provider": "AM Solutions"
+          },
+          {
+            "address": "https://lcd-evmos.validavia.me",
+            "provider": "Validavia"
+          },
+          {
+            "address": "https://evmos-api.w3coins.io",
+            "provider": "w3coins"
+          },
+          {
+            "address": "https://evmos-api.stake-town.com",
+            "provider": "StakeTown"
+          },
+          {
+            "address": "https://evmos.api.liveraven.net",
+            "provider": "LiveRaveN"
+          },
+          {
+            "address": "https://evmos-rest.antrixy.org/",
+            "provider": "Antrix Validators"
+          },
+          {
+            "address": "https://evmos-mainnet.api.stakevillage.net",
+            "provider": "Stake Village"
+          },
+          {
+            "address": "https://api.evmos.validatus.com",
+            "provider": "Validatus"
+          },
+          {
+            "address": "https://lcd.evmos.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "grpc.bd.evmos.org:9090",
+            "provider": "evmos.org"
+          },
+          {
+            "address": "grpc-evmos-ia.cosmosia.notional.ventures:443",
+            "provider": "Notional"
+          },
+          {
+            "address": "evmos-grpc.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "grpc.evmos.nodestake.top:443",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "grpc-evmos.cosmos-spaces.cloud:1190",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "evmos.grpcui.chaintools.host:443",
+            "provider": "ChainTools"
+          },
+          {
+            "address": "evmos-grpc.polkachu.com:13490",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "evmos.grpc.stakin-nodes.com:443",
+            "provider": "Stakin"
+          },
+          {
+            "address": "evmos-mainnet-grpc.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "evmos-grpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "grpc-evmos-01.stakeflow.io:1702",
+            "provider": "Stakeflow"
+          },
+          {
+            "address": "https://evmos-grpc.theamsolutions.info ",
+            "provider": "AM Solutions"
+          },
+          {
+            "address": "evmos-grpc.w3coins.io:13490",
+            "provider": "w3coins"
+          },
+          {
+            "address": "grpc-evmos.mms.team:443",
+            "provider": "MMS"
+          },
+          {
+            "address": "evmos-grpc.stake-town.com:443",
+            "provider": "StakeTown"
+          },
+          {
+            "address": "evmos.grpc.liveraven.net:443",
+            "provider": "LiveRaveN"
+          },
+          {
+            "address": "https://evmos-grpc.antrixy.org/",
+            "provider": "Antrix Validators"
+          },
+          {
+            "address": "evmos-mainnet.grpc.stakevillage.net:16990",
+            "provider": "Stake Village"
+          },
+          {
+            "address": "grpc.evmos.validatus.com:443",
+            "provider": "Validatus"
+          },
+          {
+            "address": "https://grpc.evmos.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "aevmos"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://ezstaking.app/evmos",
+          "txPage": "https://ezstaking.app/evmos/txs/${txHash}",
+          "accountPage": "https://ezstaking.app/evmos/account/${accountAddress}"
+        },
+        {
+          "url": "https://www.mintscan.io/evmos",
+          "txPage": "https://www.mintscan.io/evmos/transactions/${txHash}",
+          "accountPage": "https://www.mintscan.io/evmos/accounts/${accountAddress}"
+        },
+        {
+          "url": "https://evm.evmos.org",
+          "txPage": "https://evm.evmos.org/tx/${txHash}"
+        },
+        {
+          "url": "https://ping.pub/evmos",
+          "txPage": "https://ping.pub/evmos/tx/${txHash}"
+        },
+        {
+          "url": "https://evmos.explorers.guru",
+          "txPage": "https://evmos.explorers.guru/transaction/${txHash}"
+        },
+        {
+          "url": "https://atomscan.com/evmos",
+          "txPage": "https://atomscan.com/evmos/transactions/${txHash}",
+          "accountPage": "https://atomscan.com/evmos/accounts/${accountAddress}"
+        },
+        {
+          "url": "https://evmos.tcnetwork.io",
+          "txPage": "https://evmos.tcnetwork.io/transaction/${txHash}"
+        },
+        {
+          "url": "https://stakeflow.io/evmos",
+          "accountPage": "https://stakeflow.io/evmos/accounts/${accountAddress}"
+        },
+        {
+          "url": "https://exp.stakevillage.net/evmos",
+          "txPage": "https://exp.stakevillage.net/evmos/tx/${txHash}",
+          "accountPage": "https://exp.stakevillage.net/evmos/accounts/${accountAddress}"
+        },
+        {
+          "url": "https://explorer.stavr.tech/evmos",
+          "txPage": "https://explorer.stavr.tech/evmos/tx/${txHash}",
+          "accountPage": "https://explorer.stavr.tech/evmos/accounts/${accountAddress}"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+        }
+      ]
+    },
+    {
+      "chainName": "evmostestnet",
+      "chainId": "evmos_9000-4",
+      "networkName": "testnet",
+      "slip44": 60,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "atevmos",
+            "lowGasPrice": 20000000000,
+            "averageGasPrice": 25000000000,
+            "highGasPrice": 40000000000
+          }
+        ]
+      },
+      "bech32Prefix": "evmos",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://evmos.test.rpc.coldyvalidator.net",
+            "provider": "coldy"
+          },
+          {
+            "address": "https://evmos-testnet-rpc.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://evmos-testnet-rpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://evmos.test.api.coldyvalidator.net",
+            "provider": "coldy"
+          },
+          {
+            "address": "https://evmos-testnet-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://evmos-testnet-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "https://evmos.test.grpc.coldyvalidator.net",
+            "provider": "coldy"
+          },
+          {
+            "address": "evmos-testnet-grpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "atevmos"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://mintscan.io/evmos-testnet",
+          "txPage": "https://mintscan.io/evmos-testnet/txs/${txHash}"
+        },
+        {
+          "url": "https://testnet.evmos.explorers.guru/",
+          "txPage": "https://testnet.evmos.explorers.guru/transaction/${txHash}"
+        }
+      ]
+    }
+  ]
+}

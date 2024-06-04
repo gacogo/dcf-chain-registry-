@@ -1,0 +1,71 @@
+{
+  "value": "aioz",
+  "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg",
+  "enabledProposalTypes": {
+    "textProposal": true,
+    "communityPoolSpendProposal": true
+  },
+  "networks": [
+    {
+      "chainName": "aioz",
+      "chainId": "aioz_168-1",
+      "networkName": "mainnet",
+      "slip44": 60,
+      "fees": {
+        "feeTokens": [
+          {
+            "denom": "attoaioz",
+            "fixedMinGasPrice": 7000000000,
+            "lowGasPrice": 7000000000,
+            "averageGasPrice": 7000000000,
+            "highGasPrice": 10000000000
+          }
+        ]
+      },
+      "bech32Prefix": "aioz",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc-dataseed.aioz.network:443",
+            "provider": "AIOZ Network"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://lcd-dataseed.aioz.network",
+            "provider": "AIOZ Network"
+          }
+        ],
+        "grpc": [
+          {
+            "address": "grpc-dataseed.aioz.network:443",
+            "provider": "AIOZ Network"
+          }
+        ]
+      },
+      "staking": {
+        "stakingTokens": [
+          {
+            "denom": "attoaioz"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "url": "https://explorer.aioz.network",
+          "txPage": "https://explorer.aioz.network/tx/${txHash}"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg"
+        }
+      ]
+    }
+  ]
+}
